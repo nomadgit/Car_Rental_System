@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title>Rent a car</title>
+	<link href="car.css" type="text/css" rel="stylesheet"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<script	src="register.js">	</script>
+</head>
+<body>
+	<div class="top"> 
+		<img class ="myimage" src="rent.jpg" alt="name" >
+		<p class="phone"> CONTACT: 999-999-9999 </p>
+		
+	</div>
+	
+	<div>
+			<ul class="options">
+				<li class="left"><a href="home.html" class="optns">Home</a></li>
+				<li class="left"><a href="service.html" class="optns" >Services</a></li> 
+				<li class="left"><a href="FAQ.html" class="optns" >FAQ</a></li> 
+				<li class="left"><a href="contact.html" class="optns" >Contact</a></li> 
+				<li class="left"><a href="" class="optns" >Get Quote</a></li>
+				<li class="left"><a href="reserve.html" class="optns" >Reserve a Car</a></li>
+			</ul>
+	</div>
+	<br>
+	<hr>
+	<div>				
+			<ul class="options">
+				<li class="trans"><a href="driverdtl.html" class="optns" >Update Driver Details</a></li> 
+			</ul>
+	</div>
+		
+	<br>
+	<br>
+	<section class="reg_cont">
+		<div class="register">
+			<h1>Update Vehicle details</h1>
+				<p class="err" id="error">  </p>
+				<form method="post" name='form_reg' onSubmit="">
+				<ul>  
+					<li><label class="labl" for="ID">Vehicle ID:</label></li>  
+					<li><input id="fid" type="text" name="ID" size="11" /></li>  
+					<li><label class="labl" for="model">Model:</label></li>  
+					<li><input type="text" name="model" size="20" /></li>  
+					<li><label class="labl" for="type">Type:</label></li>  
+					<li><input type="text" name="type" size="15" /></li> 
+					<li><label class="labl" for="cond">Condition:</label></li>  
+					<li><input type="text" name="cond" size="10" /></li> 					
+					
+					<li><label class="labl" for="seat">Seat Count:</label></li>  
+					<li><input type="text" name="seat" size="11" /></li>  
+					<li><label class="labl" for="charge">Daily Charge:</label></li>  
+					<li><input type="text" name="charge" size="4" /></li>  
+					  
+					<li><label class="labl" for="cost">Cost per mile:</label></li>  
+					<li><input type="text" name="cost" size="11" /></li>  
+					
+					<li><label class="labl" for="mile">Mileage: </label></li>
+					<li><input type="text" name="mile" size="15" /></li>  
+					
+					<br>
+					<li><input class="mainsub" type="submit" name="submit" value="Add Vehicle" /></li>
+					<li><button class="mainbtn" type="button" name="save">Delete Vehicle</button></li>
+				</ul>
+					
+				</form>
+				<p class="rule"> Note: To delete a vehicle from the database it is enough to mention the Vehicle ID alone.To add Vehicle all details are mandatory</p>
+		</div>
+	</section>
+	
+	
+</body>
+</html>

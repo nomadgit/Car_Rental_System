@@ -1,0 +1,468 @@
+html
+{
+background-image: url("bkgrnd1.jpg");
+min-height: 100%;
+width: 100%;
+}
+body
+{
+
+margin-top:50px;
+margin-left: 80px;
+margin-right: 80px;
+min-height:100%;
+background-color: #000000;
+}
+.tbl
+{
+color: #B2C248;
+float:left;
+margin-top:70px;
+}
+.phone
+{
+font-weight: bold;
+text-decoration:underline;
+text-align: right;
+color: #000000;
+font-family: Comic Sans MS;
+}
+
+.welcome
+{
+font-weight: bold;
+text-decoration:underline;
+text-align: right;
+color: #FFFFFF;
+font-family: Comic Sans MS;
+margin-right: 10px;
+}
+
+.myimage
+{
+float: left;
+width: 300px;
+Height: 150px;
+}
+.colour
+{
+color: #FFFFFF;
+}
+
+.phone
+{
+
+Height: 160px;
+text-align: right;
+color: #000000;
+font-weight:italic;
+font-family: Comic Sans MS;
+}
+
+.run
+{
+  text-align: center;
+   font-size: 35px;
+   margin-top: 0px;
+  position :relative;
+  -webkit-animation: blink 5s infinite; /* Chrome, Safari, Opera */ 
+  animation: blink 5s infinite;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes blink 
+{
+   from{opacity:1;} to {opacity:0;}
+}
+
+/* Standard syntax */
+@keyframes blink 
+{
+       from{opacity:1;} to {opacity:0;}
+}
+
+
+.top
+{
+background-color: #B2C248
+}
+
+.options
+{
+display: inline;
+font-family: sans-serif;
+list-style-type: none;
+}
+
+.trans a
+{
+ margin-left: 40px;
+ float: left;
+ Height: 30px;
+ border-style: groove;
+}
+
+.left a
+{
+ float: left;
+ Height: 30px;
+ margin-left: -15px;
+ }
+.left a:hover, .trans a:hover
+{
+text-decoration: underline;
+color: #C24641;
+}
+.optns
+{
+display: block;
+text-decoration: none;
+font-weight: bold;
+text-align: center;
+width: 175px;
+color: #FFFFFF;
+}
+.ser_h1
+{
+float: left;
+text-decoration: underline;
+color: #B2C248;
+margin-bottom: 0px;
+}
+.p_hdr
+{
+float:left;
+font-weight:bold;
+text-decoration:underline;
+color: #B2C248;
+margin-bottom:10px;
+}
+.p_btm
+{
+margin-top: 0px;
+
+}
+.p_align
+{
+margin-top: 0px;
+float:left;
+}
+.slide
+{
+margin-left: 80px;
+width: 950px;
+Height: 400px;
+}
+.text_op
+{
+color: #FFFFFF;
+min-height:100%;
+}
+.cntct
+{
+color: #FFFFFF;
+margin-left: 50px;
+}
+.cntct1
+{
+
+color: #B2C248;
+text-decoration: underline;
+}
+.container 
+{
+  margin: 80px auto;
+  width: 640px;
+}
+.reg_cont
+{
+margin: 20px auto;
+width: 900px;
+}
+
+.login 
+{
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background: B2C248;
+  border-radius: 3px;
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.login:before 
+{
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+.login h1
+ {
+  margin: -20px -20px 21px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #B2C248;
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 1px whitesmoke;
+}
+.login p 
+{
+  margin: 20px 0 0;
+}
+.login p:first-child 
+{
+  margin-top: 0;
+}
+.login input[type=text], .login input[type=password] 
+{
+  width: 278px;
+}
+.login p.submit 
+{
+  text-align: right;
+}
+
+.login-help 
+{
+  margin: 20px 0;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px #2a85a1;
+}
+.login-help a 
+{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.login-help a:hover 
+{
+  text-decoration: underline;
+  color: #C24641
+}
+
+
+.spanph
+{
+color:#B2C248;
+}
+.highlght
+{
+color: blue;
+text-decoration: underline;
+}
+#leftplacement
+{
+  float:left;
+  padding:10px;
+   
+}
+#rightplacement
+{
+float: left;
+padding:10px;
+
+}
+.img1
+{
+width:100px;
+Height:100px;
+}
+.buton
+{
+margin-top: 0px;
+margin-bottom:0px;
+margin-left: 200px;
+
+}
+
+
+
+
+
+
+
+h1 {  
+margin-left: 70px;  
+}  
+form
+{
+color: #FFFFFF;
+}
+form li 
+{  
+list-style: none;  
+margin-bottom: 5px;  
+}  
+  
+form ul li label
+{  
+float: left;  
+clear: left;  
+width: 100px;  
+text-align: right;  
+margin-right: 10px;  
+font-family:Verdana, Arial, Helvetica, sans-serif;  
+font-size:14px;  
+}  
+  
+form ul li input, select 
+{  
+float: left;  
+margin-bottom: 10px;  
+margin-left: 40px;
+
+}  
+ 
+.labl
+{
+text-align:left;
+width: 100px;
+}
+.labl4
+{
+float:left;
+width: 600px;
+}
+.labl1
+{
+float: left;
+width: 100px;
+
+}
+ 
+[type="submit"] 
+{  
+clear: left;  
+margin: 20px 0 0 230px;  
+font-size:18px  
+}  
+.colourp 
+{  
+color: #FFFFFF;
+margin-left: 70px;  
+font-weight: bold;  
+}  
+
+
+
+.register 
+{
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 700px;
+ height:100%;
+  
+  background: B2C248;
+  border-radius: 3px;
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.register:before 
+{
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+.register h1
+ {
+  margin: -20px -20px 21px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #B2C248;
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 1px whitesmoke;
+}
+.err 
+{
+  margin: 20px 0 0;
+  font-weight:bold;
+  color: #E41B17;
+}
+.register p:first-child 
+{
+  margin-top: 0;
+}
+.rule
+{
+float:left;
+margin-top: 60px;
+color:#E41B17;
+}
+.sub 
+{
+  margin-top: -20px;
+  margin-left:100px;
+  background-color: #B2C248;
+  float:  right;
+ }
+ .mainbtn
+ {
+ margin-left: -10px;
+ 
+ background-color: #B2C248;
+ float:right;
+ height:2em;
+ font-weight: bold;
+ }
+ 
+ .mainsub1
+ {
+ margin-left:30px;
+  background-color: #B2C248;
+  float:  left;
+ }
+ .mainsub
+ {
+  margin-left:-10px;
+  background-color: #B2C248;
+  float:  left;
+ }
+.error
+{
+font-weight: bold;
+
+}
+
+#edge{
+color: red;
+font-family: sans-serif;
+}
+
+.iphone{
+font-weight: italics;
+text-decoration:none;
+text-align: right;
+font-family: sans-serif;
+}
+
+#crass{
+  color: green;
+  font-family: sans-serif;
+}
+
+#brad{
+  font-family: serif;
+}
